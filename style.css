@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+}
+form input {
+    border: none;
+    outline: none;
+    width: 12rem;
+    height: 40px;
+    text-align: center;
+}
+
+#searched{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.images{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    margin: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 768px){
+    header {
+        height: 122px;
+    }
+}
